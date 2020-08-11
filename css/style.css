@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+	--color-negro:#222;
+	--color-azul: #00acb3;
+	--color-oscuro: #252830;
+	--color-azul-transp: rgba(0, 172, 179, 0.6);
+	--color-rojo:#c9302c;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #444;
+	font-weight: 300;
+	line-height: 1.8 !important;
+}
+
+.titulo{
+	color: var(--color-negro);
+	font-weight: 700;
+	font-size: 65px;
+}
+
+.subtitulo{
+	color: var(--color-negro);
+	font-weight: 100;
+	font-size: 55px;
+}
+
+#intro{
+	background-image: url("../img/bg_girl.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 10%;
+	color: #fff;
+}
+
+#intro h3{
+	text-align: left;
+}
+
+#intro h2{
+	text-align: left;
+}
+
+#intro p{
+	text-align: left;
+}
+
+#intro .titulo{
+	color: #fff;
+}
+
+#intro .subtitulo{
+	color: #fff;
+}
+
+header{
+	padding: 2%;
+}
+
+#classes{
+	padding: 5%;
+}
+
+#classes h2{
+	color: var(--color-azul);
+}
+
+#classes img{
+	padding: 15%;
+}
+
+#register{
+	background-color: var(--color-oscuro);
+	padding: 100px;
+}
+
+#register h2{
+	color: #fff;
+}
+
+#fitness{
+	background-image: url("../img/health-fitness.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20%;
+}
+
+#fitness article{
+	filter: opacity(.5);
+}
+
+#trainers{
+	background-color: var(--color-oscuro);
+	color: #fff;
+	padding: 5% 0;
+}
+
+#trainers h2{
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+#trainers p{
+	margin-bottom: 40px;
+}
+
+#contact{
+	background-image: url("../img/bg-map.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10%;
+	color: #fff;
+}
+
+#contact h2{
+	color: #fff;
+}
+
+form#contacto input{
+	background-color: #f1f2f3;
+	border-radius: 0;
+	padding: 20px;
+	font-size: 13px;
+	border: 0;
+}
+
+form#contacto textarea{
+	background-color: #f1f2f3;
+	border-radius: 0;
+	padding: 20px;
+	font-size: 13px;
+	border: 0;
+}
+
+#subscribe h2{
+	padding: 10%;
+}
+
+#subscribe .btn-azul{
+	margin-left: 60px;
+}
+
+form#contactos input{
+	background-color: #f1f2f3;
+	border-radius: 0;
+	padding: 20px;
+	font-size: 13px;
+	border: 0;
+	margin-left: 60px;
+}
+
+form#contactos textarea{
+	background-color: #f1f2f3;
+	border-radius: 0;
+	padding: 20px;
+	font-size: 13px;
+	border: 0;
+	margin-left: 45px;
+}
+
+#contact p{
+	margin-left: -30px;
+}
+
+#contact i{
+	font-size: 30px;
+}
+
+.section{
+	padding: 20% 0;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #222;
+    border: 0 !important;
+	border: 2px solid #222 !important;
+}
+
+.btn{
+	border-radius: 1;
+	padding: 15px 30px;
+	margin-right: 10px;
+	letter-spacing: 1px;
+	border: 0;
+	background-color: var(--color-azul);
+	color: #FFF;
+	margin-top: 50px;
+}
+
+.btn-azul{
+	background-color: var(--color-azul);
+}
+
+.btn-blanco{
+	background-color: #fff;
+	color: var(--color-azul);
+}
+
+.btn-rojo{
+	background-color: var(--color-rojo);
+	color: #fff;
+}
+
+.btn-white{
+	background-color: #fff;
+	color: var(--color-azul);
+	border: 1;
+}
+
+
+.carousel-shots .active img{
+	opacity: 0.8;
+	transform: scale(0.8)
+}
+
+.carousel-shots .active.center img{
+	opacity: 1;
+	transform: scale(1)
+}
+
+
+
+footer{
+	background-color: #fff;
+	text-align: center;
+	color: #000;
+	padding: 8% 0;
+}
+
+footer i{
+	margin-bottom: 80px;
+	color: var(--color-azul);
+	font-size: 30px;
+	padding: 5%;
+}
